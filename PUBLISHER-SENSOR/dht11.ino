@@ -3,11 +3,11 @@
 #include <PubSubClient.h>
 #include <DHT.h>
 
-const char* mqtt_server = "195.35.23.135"; //masukkan ip/url host server kalian
+const char* mqtt_server = "your_ip_or_host"; 
 const int mqtt_port = 1883;
-const char* mqtt_user = "/virtual_host_anda:user_anda"; // isikan virtual host dengan / sebelumnya
-const char* mqtt_pass = "password_kalian";
-const char* mqtt_topic = "routing_key_kalian";
+const char* mqtt_user = "/your_virtual_host:your_username"; 
+const char* mqtt_pass = "your_pass";
+const char* mqtt_topic = "your_routing_key";
 
 #define DHTPIN D2
 #define DHTTYPE DHT11
